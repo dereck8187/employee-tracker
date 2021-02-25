@@ -6,7 +6,7 @@ require("console.table");
 init();
 
 function init() {
-    const logoText = logo({ name: "Employee Manager" }).render();
+    const logoText = logo({ name: "Grey Sloan Employees" }).render();
   
     console.log(logoText);
   

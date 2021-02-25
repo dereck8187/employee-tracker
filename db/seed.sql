@@ -19,6 +19,6 @@ VALUES
     (title, salary, department_id)
 VALUES
     ('Surgeon', 300000, 1),
-    ('GP', 175000, 1),
-    ('Nurse', 70000, 1),
+    ('GP', 175000, 2,
+    ('Nurse', 70000, 3),
     
