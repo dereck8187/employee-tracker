@@ -80,8 +80,6 @@ function init() {
       return addEmployee();
     case "REMOVE_EMPLOYEE":
       return removeEmployee();
-    case "UPDATE_EMPLOYEE_ROLE":
-      return updateEmployeeRole();
     case "VIEW_DEPARTMENTS":
       return viewDepartments();
     case "ADD_DEPARTMENT":
@@ -96,5 +94,5 @@ function init() {
       return removeRole();
     default:
       return quit();
-  }
-};
+  };
+

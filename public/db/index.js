@@ -38,7 +38,7 @@ class DB {
             return this.connection.query("INSERT INTO department SET ?", department);
           }
 
-          removeDepartment(departmentId) {
+    removeDepartment(departmentId) {
             return this.connection.query(
               "DELETE FROM department WHERE id = ?",
               departmentId
